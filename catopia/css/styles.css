@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background:#2CD3E1;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: papayawhip;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+/* Color Palette */
+:root {
+  --primary-color: #FFB84C;
+  --secondary-color: #F266AB;
+  --tertiary-color: #A459D1;
+  --accent-color: #2CD3E1;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+nav a {
+  border-radius: 20px;
+  color: papayawhip;
+  padding: 10px;
+  background: #A459D1;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+nav a:hover {
+  background: #F266AB;
+  padding: 15px;
+  color: #2CD3E1;
+}
+
+main {
+  color: #fff;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+ 
+}
+
+.about {
+  font-size: 40px;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.index {
+  position: relative;
+  top: 180px;
+  left: 80px;
+  font-size: 40px;
+  width: 30ch;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  font-size: 18px;
+}
+
+.catAbout {
+  position: relative;
+  left: 360px;
+  bottom: 80px;
+}
+
+.catIndex {
+  position: relative;
+  bottom: 200px;
+  left: 800px;
+}
+
+.breeds {
+  width: 110ch;
+  font-size: 18px;
+  padding-left: 200px;
+}
+
+.catPic {
+  float: right;
+}
+
+.contact-box {
+  width: 500px;
+  background: #A459D1;
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  top: 230px;
+}
+
+form {
+  margin: 35px
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+}
+
+.btn {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  padding: 10px;
+  background: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.vid1 {
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.vid2 {
+  position: relative;
+  left: 1000px;
+  top: 90px;
+}
+
+.vid3 {
+  position: relative;
+  bottom: 450px;
+  left: 800px;
+}
+
+.vid4 {
+  position: relative;
+  bottom: 430px;
+  left: 300px;
+}
+
